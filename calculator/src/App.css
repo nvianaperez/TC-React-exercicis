@@ -1,0 +1,45 @@
+.Calculator {
+  margin: 0 auto;
+  max-width: 300px;
+
+}
+
+.Display {
+  text-align: right;
+  background-color: darkblue;
+  padding: 30px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+
+.Numbers, .Buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: orange;
+}
+
+:is(.Numbers, .Buttons) button {
+  flex: 0 0 33%;
+  padding: 30px;
+  background: lightgoldenrodyellow;
+  cursor: pointer;
+}
+
+.Numbers button:hover {
+  background-color: white;
+}
+
+.Numbers button:active {
+  background-color: grey;
+}
+
+.Buttons button {
+  background-color: aliceblue;
+}
+.Buttons {
+  background-color: lightskyblue;
+}
