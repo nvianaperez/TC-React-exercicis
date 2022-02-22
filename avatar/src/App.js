@@ -1,6 +1,5 @@
 import Comment from "./Comment";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
