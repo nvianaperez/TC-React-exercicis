@@ -1,0 +1,25 @@
+body {
+  border: 1px solid grey;
+}
+
+.container-buttons {
+  display: flex;
+  margin: 20px;
+}
+
+button {
+  flex: 1 1 auto;
+  margin: 10px;
+  background-color: lightsalmon;
+}
+
+p {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.white {
+  background-color: white;
+}
