@@ -7,13 +7,14 @@ function App() {
 
   const toggle = (text) => {
     setTextCanvia(text);
-    setColor("white");
+
+    if (textCanvia === text) setColor("white");
   };
 
   return (
     <>
       <div className="container-buttons">
-        <button onClick={() => toggle("A")} className={textCanvia==="cap" ? color : }>
+        <button onClick={() => toggle("A")} className={color}>
           A
         </button>
         <button onClick={() => toggle("B")} className={color}>
